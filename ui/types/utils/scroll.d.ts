@@ -2,7 +2,7 @@ import { Ref, ComponentPublicInstance } from "vue";
 
 export namespace scroll {
   function getScrollTarget(
-    el: Element,
+    el?: Element | null,
     selector?:
       | string
       | Element
